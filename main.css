@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: white;
+  background-color: #3a356e;
+}
+
+body,
+.container,
+.message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  padding: 16px;
+  height: fit-content;
+  width: 360px;
+
+  background: linear-gradient(145deg, #3e3976, #343063);
+  box-shadow: 25px 25px 50px #17152c, -25px -25px 50px #5d55b0;
+}
+
+.container p {
+  margin-bottom: 16px;
+}
+
+form input {
+  display: block;
+  margin: 8px auto;
+}
+
+form input,
+form button {
+  width: 320px;
+  height: 30px;
+}
+
+form button {
+  border: none;
+  background-color: #796fe7;
+  color: white;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #5d55b0;
+}
+
+p.message {
+  width: 320px;
+  min-height: 30px;
+  height: fit-content;
+  margin: 8px auto 0 auto;
+  display: none;
+}
+
+p.success {
+  background-color: rgba(0, 128, 0, 0.849);
+  display: flex;
+}
+
+p.error {
+  background-color: rgba(255, 0, 0, 0.753);
+  display: flex;
+}
