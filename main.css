@@ -1,0 +1,64 @@
+:root {
+  --body-color: #e6e6e6;
+  --main-font: Arial, Helvetica, sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--main-font);
+  background-color: var(--body-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: fit-content;
+  margin-top: 300px;
+
+  text-align: center;
+}
+
+.container h1 {
+  margin-bottom: 32px;
+  font-size: 24px;
+  text-align: center;
+}
+
+form {
+  margin-bottom: 24px;
+  display: flex;
+}
+
+form input {
+  width: 200px;
+  margin-right: 8px;
+}
+
+form button {
+  font-weight: bold;
+  font-size: 18px;
+
+  cursor: pointer;
+  padding: 8px;
+}
+
+ul {
+  display: inline-block;
+  text-align: left;
+}
+
+ul li {
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.task-done {
+  text-decoration: line-through;
+}
