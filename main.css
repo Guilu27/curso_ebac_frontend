@@ -48,15 +48,21 @@ form button {
   padding: 8px;
 }
 
-ul {
-  display: inline-block;
+.task-list {
+  display: flex;
   text-align: left;
+  align-items: center;
 }
 
-ul li {
-  font-size: 14px;
-  text-align: center;
+.task-list p,
+.task-list img {
   cursor: pointer;
+  margin-right: 8px;
+  margin-top: 8px;
+}
+
+.task-list img {
+  height: 20px;
 }
 
 .task-done {
