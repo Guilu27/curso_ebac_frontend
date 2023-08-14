@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body,
+html {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffe4c4;
+  color: #484041;
+}
+
+form {
+  width: 360px;
+  padding: 16px;
+  border: 1px solid #ffd199;
+  border-radius: 10px;
+  box-shadow: 10px 10px 50px 4px rgba(72, 64, 65, 0.46);
+}
+
+.form-cadastro {
+  margin-top: 16px;
+}
+
+label {
+  display: block;
+}
+
+input,
+button {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ffd199;
+  border-radius: 3px;
+}
+
+button {
+  margin-top: 16px;
+  background-color: #4d9de0;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #434371;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+}
+
+p{
+  margin-top: 8px;
+  padding: 8px;
+  font-size: 16px;
+  text-align: center;
+  display: none;
+}
+
+.erro {
+  background-color: #e15554;
+  color: white;
+  display: block;
+}
+
+.sucesso {
+  background-color: #1e9b23;
+  color: white;
+  display: block;
+}
