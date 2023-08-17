@@ -10,17 +10,21 @@
     <title>Centralizar Div</title>
     <style>
       body {
-        background-color: #0B5F6F;
-        color: #EFF7F6;
+        background-color: #0b5f6f;
+        color: #eff7f6;
       }
       form {
-        box-shadow: 11px 9px 24px 11px rgba(6,47,56,0.59);
+        box-shadow: 11px 9px 24px 11px rgba(6, 47, 56, 0.59);
         padding: 16px;
         border-radius: 20px;
       }
 
-      .form-button {
-        margin-top: 16px;
+      form input{
+        margin-bottom: 8px;
+      }
+
+      form button {
+        margin-top: 8px;
       }
     </style>
   </head>
@@ -35,10 +39,10 @@
         <input type="text" id="nome" class="form-control" />
         <label for="email" class="form-label">Seu e-mail:</label>
         <input type="email" id="email" class="form-control" />
-        <label for="tel" class="form-label">Seu nome:</label>
+        <label for="tel" class="form-label">Seu telefone:</label>
         <input type="tel" id="tel" class="form-control" />
         <div class="d-flex justify-content-center">
-          <button class="btn btn-success form-button">Cadastrar</button>
+          <button class="btn btn-success">Cadastrar</button>
         </div>
       </form>
     </div>
