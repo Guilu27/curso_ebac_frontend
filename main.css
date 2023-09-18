@@ -70,3 +70,23 @@ header .container {
 .numbers-item h4 {
   font-size: 0.3em;
 }
+
+form {
+  margin-top: 32px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input {
+  padding: 8px;
+}
+
+button {
+  background-color: var(--header-color);
+  color: var(--bg-color);
+  padding: 10px 16px;
+  border: none;
+}
